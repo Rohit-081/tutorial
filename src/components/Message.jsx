@@ -2,6 +2,7 @@ import React, {Component} from 'react' ;
 
 
 class Message extends Component{
+   
     constructor(){
         super()
         this.state = {
@@ -15,6 +16,7 @@ class Message extends Component{
         })
     }
     render(){
+         
         return( 
             <div>
                  <h1>

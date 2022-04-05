@@ -34,7 +34,7 @@ import React, { Component } from 'react'
     return (
      <div>
           <div>Count - {this.state.count}</div>
-          <button onClick={()=>this.increment()}>Increment</button>
+          <button onClick={()=>this.increment}>Increment</button>
      </div>
     )
   }
